@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "Low-code vs programmatic ETL pipeline benchmark (Pentaho and Python/pandas)"
+type: software
+repository-code: "https://github.com/nadzlaandrita/lowcode-vs-code-etl-benchmark"
+authors:
+  - family-names: Ghayatrie
+    given-names: Nadzla Andrita Intan
+  - family-names: Bahagiono
+    given-names: Joan Christiana
+  - family-names: Hasnawi
+    given-names: Francis Jordan
+  - family-names: Norman
+    given-names: Fritz Gerald
+  - family-names: Kurniawan
+    given-names: William Chendra
+preferred-citation:
+  type: conference-paper
+  title: "A Comparative Study of Low-Code and Programmatic ETL Pipeline Architectures for Multi-Source Data Integration"
+  authors:
+    - family-names: Ghayatrie
+      given-names: Nadzla Andrita Intan
+  collection-title: "ICODIT"
+  year: 2026

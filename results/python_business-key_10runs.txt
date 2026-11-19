@@ -1,0 +1,194 @@
+=== Environment ===
+OS: Windows 11 (10.0.26200)
+Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+Python: 3.13.5
+pandas: 2.3.1
+CPU cores (logical): 8
+RAM: 15.7 GB
+
+Dedup mode: business-key
+
+
+=== Run 1/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.1210        3045
+Ingest: Peace Index             0.0459        2445
+Ingest: Income (WIDER + WDI_GINI)    0.2133        4291
+Clean: Inflation                0.0019        2981
+Clean: Peace Index              0.0011        2433
+Clean: Income                   0.0097         927
+Join (Country + Year)           0.0137         845
+Build Fact_Economy_Peace        0.0037         845
+Build Dim_Country               0.0033         148
+Build Dim_Time                  0.0003          11
+Build ABT + Export CSV          0.0236         845
+--------------------------------------------------
+TOTAL                           0.4373
+Peak memory this run: 96.2 MB
+
+=== Run 2/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0207        3045
+Ingest: Peace Index             0.0182        2445
+Ingest: Income (WIDER + WDI_GINI)    0.2226        4291
+Clean: Inflation                0.0010        2981
+Clean: Peace Index              0.0010        2433
+Clean: Income                   0.0039         927
+Join (Country + Year)           0.0052         845
+Build Fact_Economy_Peace        0.0019         845
+Build Dim_Country               0.0033         148
+Build Dim_Time                  0.0004          11
+Build ABT + Export CSV          0.0284         845
+--------------------------------------------------
+TOTAL                           0.3067
+Peak memory this run: 97.4 MB
+
+=== Run 3/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0224        3045
+Ingest: Peace Index             0.0091        2445
+Ingest: Income (WIDER + WDI_GINI)    0.2436        4291
+Clean: Inflation                0.0017        2981
+Clean: Peace Index              0.0016        2433
+Clean: Income                   0.0032         927
+Join (Country + Year)           0.0067         845
+Build Fact_Economy_Peace        0.0017         845
+Build Dim_Country               0.0033         148
+Build Dim_Time                  0.0005          11
+Build ABT + Export CSV          0.0155         845
+--------------------------------------------------
+TOTAL                           0.3093
+Peak memory this run: 97.4 MB
+
+=== Run 4/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0214        3045
+Ingest: Peace Index             0.0159        2445
+Ingest: Income (WIDER + WDI_GINI)    0.2290        4291
+Clean: Inflation                0.0015        2981
+Clean: Peace Index              0.0009        2433
+Clean: Income                   0.0022         927
+Join (Country + Year)           0.0041         845
+Build Fact_Economy_Peace        0.0016         845
+Build Dim_Country               0.0048         148
+Build Dim_Time                  0.0005          11
+Build ABT + Export CSV          0.0230         845
+--------------------------------------------------
+TOTAL                           0.3047
+Peak memory this run: 98.1 MB
+
+=== Run 5/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0392        3045
+Ingest: Peace Index             0.0206        2445
+Ingest: Income (WIDER + WDI_GINI)    0.2463        4291
+Clean: Inflation                0.0009        2981
+Clean: Peace Index              0.0008        2433
+Clean: Income                   0.0025         927
+Join (Country + Year)           0.0043         845
+Build Fact_Economy_Peace        0.0011         845
+Build Dim_Country               0.0023         148
+Build Dim_Time                  0.0002          11
+Build ABT + Export CSV          0.0120         845
+--------------------------------------------------
+TOTAL                           0.3302
+Peak memory this run: 98.7 MB
+
+=== Run 6/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0198        3045
+Ingest: Peace Index             0.0203        2445
+Ingest: Income (WIDER + WDI_GINI)    0.1525        4291
+Clean: Inflation                0.0009        2981
+Clean: Peace Index              0.0007        2433
+Clean: Income                   0.0019         927
+Join (Country + Year)           0.0043         845
+Build Fact_Economy_Peace        0.0011         845
+Build Dim_Country               0.0016         148
+Build Dim_Time                  0.0003          11
+Build ABT + Export CSV          0.0116         845
+--------------------------------------------------
+TOTAL                           0.2149
+Peak memory this run: 99.1 MB
+
+=== Run 7/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0150        3045
+Ingest: Peace Index             0.0098        2445
+Ingest: Income (WIDER + WDI_GINI)    0.1635        4291
+Clean: Inflation                0.0011        2981
+Clean: Peace Index              0.0018        2433
+Clean: Income                   0.0043         927
+Join (Country + Year)           0.0056         845
+Build Fact_Economy_Peace        0.0019         845
+Build Dim_Country               0.0031         148
+Build Dim_Time                  0.0003          11
+Build ABT + Export CSV          0.0208         845
+--------------------------------------------------
+TOTAL                           0.2272
+Peak memory this run: 99.1 MB
+
+=== Run 8/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0257        3045
+Ingest: Peace Index             0.0165        2445
+Ingest: Income (WIDER + WDI_GINI)    0.2178        4291
+Clean: Inflation                0.0026        2981
+Clean: Peace Index              0.0018        2433
+Clean: Income                   0.0041         927
+Join (Country + Year)           0.0102         845
+Build Fact_Economy_Peace        0.0025         845
+Build Dim_Country               0.0046         148
+Build Dim_Time                  0.0004          11
+Build ABT + Export CSV          0.0188         845
+--------------------------------------------------
+TOTAL                           0.3051
+Peak memory this run: 100.1 MB
+
+=== Run 9/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0326        3045
+Ingest: Peace Index             0.0107        2445
+Ingest: Income (WIDER + WDI_GINI)    0.1527        4291
+Clean: Inflation                0.0016        2981
+Clean: Peace Index              0.0014        2433
+Clean: Income                   0.0029         927
+Join (Country + Year)           0.0072         845
+Build Fact_Economy_Peace        0.0017         845
+Build Dim_Country               0.0025         148
+Build Dim_Time                  0.0003          11
+Build ABT + Export CSV          0.0196         845
+--------------------------------------------------
+TOTAL                           0.2333
+Peak memory this run: 100.1 MB
+
+=== Run 10/10 ===
+Stage                          Seconds    Rows out
+--------------------------------------------------
+Ingest: Inflation               0.0202        3045
+Ingest: Peace Index             0.0150        2445
+Ingest: Income (WIDER + WDI_GINI)    0.1384        4291
+Clean: Inflation                0.0009        2981
+Clean: Peace Index              0.0008        2433
+Clean: Income                   0.0033         927
+Join (Country + Year)           0.0040         845
+Build Fact_Economy_Peace        0.0010         845
+Build Dim_Country               0.0016         148
+Build Dim_Time                  0.0002          11
+Build ABT + Export CSV          0.0137         845
+--------------------------------------------------
+TOTAL                           0.1990
+Peak memory this run: 100.1 MB
+
+=== Summary over 10 runs ===
+Runtime:      mean = 0.2868s   SD = 0.0710s
+Peak memory:  mean = 98.6 MB   SD = 1.3 MB   max = 100.1 MB
